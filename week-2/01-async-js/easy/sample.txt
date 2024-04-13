@@ -1,0 +1,5 @@
+This is a sample file.
+Hello from sample.txt.
+goodbye from sample.txt.
+I love node.js
+I love node.js
