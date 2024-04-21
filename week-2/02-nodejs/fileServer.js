@@ -18,4 +18,8 @@ const path = require('path');
 const app = express();
 
 
+app.use((req, res, error) => {
+  res.status(404).send()
+})
+
 module.exports = app;
