@@ -1,7 +1,6 @@
 const jwt = require('jsonwebtoken');
 const jwtPassword = 'secret';
 const z = require("zod")
-const jwtDecode = require("jwt-decode")
 
 const usernameSchema = z.string().email()
 const passwordSchema = z.string().length(6)
